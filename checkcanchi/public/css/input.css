@@ -1,0 +1,122 @@
+html,body{
+	height:100%;
+}
+body{
+	background-image: url('/images/body-bg.png');
+}
+
+header{
+	margin-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+.content{
+	/*height: 500px;*/
+	padding-top: 100px;
+}
+.footer{
+	text-align: center;
+	padding-top: 100px;
+
+}
+footer{
+	text-align: center;
+	background-color: black;
+	color: #fff;
+	height: 50px;
+	padding-top: 15px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.result{
+	/*height: 200px;*/
+	background-color: #f8d7da;
+	border: 1px solid #f5c6cb;
+	color: #721c24;
+	width: 600px;
+	padding-top: 20px;
+
+}
+.result p{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: cursive;
+}
+.item-info{
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+.item-info span{
+	font-style: italic;
+	font-size: 25px;
+}
+
+.container{
+	height:100%;
+	background-color: #f7f7f7;
+	padding:0px;
+	position: relative;
+}
+.dropdown-cung #numberYear{
+	width: 60%;
+	float: left;
+}
+.dropdown-cung .title-more-cung{
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: inherit;
+}
+.dropdown-cung{
+	padding-left: 170px;
+}
+.dropdown-cung button{
+	margin-left: -100px;
+}
+#modalCungTrach #exampleModalLabel{
+	text-align: center;
+	font-weight: bold;
+    font-size: 30px;
+}
+#modalCungTrach .modal-header .close{
+	position: absolute;
+	right: 10px;
+	top: 22px;
+	font-size: 30px;
+}
+.content-result{
+	height: 350px;
+	text-align: center;
+	background-color: #eee;
+	border-radius: 5px;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+.content-cung p{
+	color:#db2c2c;
+	font-style: italic;
+	font-size: 20px;
+}
+.result-battrach span{
+	font-size: 30px;
+    font-weight: bold;
+}
+.content-giainghia p{
+	white-space: pre-wrap;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+    color: #793535;
+}
+#modalCungTrach .modal-content{
+	background-color: #fff7ed;
+}
+#modalCungTrach .note-cungtrach{
+	font-family: cursive;
+}
